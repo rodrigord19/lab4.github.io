@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Laboratorio JavaScript</h1>
+        <form id="datosForm">
+            <label for="primerNombre">Primer Nombre</label>
+            <input type="text" id="primerNombre" required>
+            
+            <label for="segundoNombre">Segundo Nombre</label>
+            <input type="text" id="segundoNombre">
+            
+            <label for="primerApellido">Primer Apellido</label>
+            <input type="text" id="primerApellido" required>
+            
+            <label for="segundoApellido">Segundo Apellido</label>
+            <input type="text" id="segundoApellido">
+            
+            <label for="dni">DNI</label>
+            <input type="text" id="dni" required>
+            
+            <label for="fechaNacimiento">Fecha de Nacimiento</label>
+            <input type="date" id="fechaNacimiento" required>
+            
+            <button type="submit">Procesar</button>
+            
+            <label for="nombreCompleto">Nombre Completo</label>
+            <input type="text" id="nombreCompleto" readonly>
+            
+            <label for="ultimoDigitoDNI">Último Digito del DNI</label>
+            <input type="text" id="ultimoDigitoDNI" readonly>
+            
+            <label for="edad">Edad</label>
+            <input type="text" id="edad" readonly>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
